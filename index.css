@@ -230,6 +230,7 @@ body {
 .mainDiv4 {
   display: flex;
   flex-direction: row;
+  margin-top: 15px;
 }
 .p1 {
   width: 215px;
