@@ -1,0 +1,250 @@
+body {
+  background-color: var(--background-dark, #2f1893);
+  margin-left: 213px;
+  margin-top: 74px;
+}
+.heading1 {
+  color: white;
+}
+
+.mainDiv1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.listDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 38px;
+  margin-right: 95px;
+  list-style-type: none;
+  color: white;
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.btn1 {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: -20px;
+  color: white;
+  background-color: #e93a7d;
+  border: none;
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.li1 {
+  opacity: 0.3;
+}
+
+.text1 {
+  width: 424px;
+  height: 217px;
+  flex-shrink: 0;
+  color: var(--colors-white, #fff);
+  font-family: DM Sans;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+}
+.text2 {
+  width: 363px;
+  height: 160px;
+  margin-top: -28px;
+  color: var(--colors-white, #fff);
+  font-family: DM Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+.btn2 {
+  width: 157px;
+  height: 50px;
+  border-radius: 40px;
+  color: white;
+  background-color: #e93a7d;
+  border: none;
+  flex-shrink: 0;
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.form {
+  width: 470px;
+  height: 600px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--background-light, #fff);
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.mainDiv2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form h3 {
+  color: var(--colors-heading, #1e0e62);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.4px;
+}
+.form input {
+  width: 330px;
+  height: 50px;
+  padding-left: 24px;
+  border-style: solid;
+  border-radius: 50px;
+  margin-left: 70px;
+  border-color: #ebeaed;
+  border-left-color: #ebeaed !important;
+  color: #15143966;
+  margin-bottom: 20px;
+}
+::placeholder {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.check {
+  width: 24px !important;
+  height: 19px !important;
+  margin-left: 90px !important;
+}
+.mainDiv3 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.mainDiv3 p {
+  width: 228px;
+  height: 26px;
+  font-family: DM Sans;
+  font-size: 16px;
+  margin-top: 0px;
+  color: #15143966;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.btn3 {
+  width: 330px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 70px;
+  background-color: #482be7;
+  color: #ffffff;
+  border: none;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 4px;
+}
+.divider {
+  display: flex;
+  align-items: center;
+}
+
+.divider p {
+  width: 16px;
+  height: 26px;
+  opacity: 0.9;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #15143966;
+}
+
+.divider::before {
+  content: "";
+  height: 4px;
+  width: 141.57px;
+  background-color: #ebeaed;
+  border: 2px;
+  margin-left: 81px;
+}
+.divider::after {
+  content: "";
+  height: 4px;
+  width: 141.57px;
+  background-color: #ebeaed;
+  border: 2px;
+}
+
+.btn4 {
+  width: 330px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 70px;
+  background-color: #1da1f2;
+  color: #ffffff;
+  border: none;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.mainDiv4 {
+  display: flex;
+  flex-direction: row;
+}
+.p1 {
+  width: 215px;
+  height: 28px;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #15143966;
+  margin-left: 100px;
+}
+.p2 {
+  width: 56px;
+  height: 28px;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #25dac5;
+}
