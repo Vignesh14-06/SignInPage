@@ -19,33 +19,36 @@ font-family:DM Sans;
 .listDiv {
   display: flex;
   flex-direction: row;
-  gap: 38px;
+  gap: 18px;
   margin-right: 95px;
   list-style-type: none;
+
+}
+.listDiv button {
+  border: none;
+  background-color:var(--background-dark, #2f1893) ;
   color: white;
-font-family:DM Sans;
+  font-family:DM Sans;
 font-size: 18px;
 font-weight: 500;
 line-height: 26px;
 letter-spacing: 0px;
 text-align: left;
-
 }
-
 .btn1 {
-  width: 120px;
-  height: 40px;
-  border-radius: 20px;
-  margin-top: -20px;
-  color: white;
-  background-color: #e93a7d;
-  border: none;
+  width: 120px !important;
+  height: 40px !important;
+  border-radius: 20px !important;
+  margin-top: -20px !important;
+  color: white !important;
+  background-color: #e93a7d !important;
+  border: none !important;
 font-family: DM Sans;
-font-size: 18px;
-font-weight: 500;
-line-height: 26px;
-letter-spacing: 0px;
-text-align: center;
+font-size: 18px !important;
+font-weight: 500 !important;
+line-height: 26px !important;
+letter-spacing: 0px !important;
+text-align: center !important;
 
 }
 .li1 {
